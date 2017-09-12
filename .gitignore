@@ -1,0 +1,9 @@
+frontend/node_modules/*
+frontend/dist/*
+*.pyc
+backend/__pycache__/*
+backend/dist/*
+backend/build/*
+backend/MANIFEST
+backend/venv/*
+backend/*.egg-info/*

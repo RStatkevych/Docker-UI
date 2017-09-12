@@ -1,0 +1,40 @@
+.item-list {
+	width: 100%;
+	border-collapse: collapse;
+	display: table;
+	.item-list-head {
+		span {
+			padding: 5px;
+			display: table-cell;
+		}
+		width: 100%;
+		display: table;
+		background-color: #939393;
+		border-left: none;
+		border-right: none; 
+		color: white;
+	}
+	.item-list-body {
+
+		overflow: auto;
+		> div {
+			display: table;
+			width: 100%;
+			> div {
+				display: table-row;
+				background-color: #f7f7f7;
+				border-bottom: 1px solid #ededed;
+				&:hover {
+					background-color: #ededed;
+					transition: 0.2s all;
+				}
+				> span {
+					display: table-cell;
+
+					border-collapse: collapse;
+					padding: 5px;
+				}
+			}
+		}
+	}
+}

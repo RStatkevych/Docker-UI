@@ -1,0 +1,2 @@
+include templates/index.html
+include templates/dist/bundle.js
